@@ -7,5 +7,6 @@ class Book {
     String name='Pravin'
     String nop
     static constraints = {
+        title nullable:false
     }
 }
