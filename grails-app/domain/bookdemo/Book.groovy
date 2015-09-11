@@ -6,5 +6,6 @@ class Book {
     String author
     String name='Pravin'
     static constraints = {
+        title nullable:false
     }
 }
